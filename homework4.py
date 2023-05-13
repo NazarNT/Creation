@@ -1,14 +1,14 @@
 # Homework 4
 new_data = input("Введіть дані ")
-# Перевірка чи введене число
+# Check for digits
 if new_data.isdigit():
     print("You entered digits")
     if int(new_data) % 2 == 0:
-# Перевірка на парність числа
+# Even - Odd check
         print("This is an even number")
     else:
         print("This number is odd")
-# Перевірка чи введені дані це текст
+# Letters check
 elif new_data.isalpha():
     print("You entered letters")
     print("The word you entered consists of", len(new_data), "letters")
